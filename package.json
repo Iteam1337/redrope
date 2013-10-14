@@ -1,0 +1,32 @@
+{
+  "name": "redrope",
+  "version": "0.0.0",
+  "description": "redrope =========",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Iteam1337/redrope.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "gitHead": "0651011ce36aba84e9342c5a787ac0458d13b3bf",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "bower": "~1.2.7",
+    "sinon": "~1.7.3",
+    "chai": "~1.8.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-mocha": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-shell": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0"
+  },
+  "dependencies": {}
+}

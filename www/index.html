@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="receipter">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/receipter.css" />
+    <title>Receipter</title>
+  </head>
+  <body>
+    <main ng-controller="AppController">
+      <div class="container" ui-view>
+      </div>
+    </main>
+    <footer class="navbar nabvar-inverse navbar-fixed-bottom">
+      <nav class="container">
+        <ul class="nav nav-pills">
+          <li menuactive="active"><a href="#/">Home</a></li>
+          <li menuactive="active"><a href="#/upload">Upload</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="js/receipter.js"></script>
+  </body>
+</html>
