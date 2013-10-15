@@ -1,5 +1,5 @@
 
-angular.module('receipter').service('notification', function($window, $rootScope) {
+angular.module('redrope').service('notification', function($window, $rootScope) {
   'use strict';
   return {
     alert: function(message, callback, title, buttonName) {

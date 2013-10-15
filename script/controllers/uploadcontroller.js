@@ -1,5 +1,5 @@
 
-angular.module('receipter').controller('UploadController', function($scope, notification) {
+angular.module('redrope').controller('UploadController', function($scope, notification) {
   'use strict';
   //data:image/jpeg;base64,{{imagedata}} 
 

@@ -10,7 +10,7 @@ describe('menuactive', function() {
 
     path = sinon.stub();
 
-    module('receipter', function($provide) {
+    module('redrope', function($provide) {
       $provide.value('$location', { path: path });
     });
 

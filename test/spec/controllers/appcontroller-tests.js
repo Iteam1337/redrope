@@ -4,7 +4,7 @@ describe('AppController', function() {
   var controller, scope;
 
   beforeEach(function() {
-    module('receipter');
+    module('redrope');
     inject(function($controller, $rootScope) {
       scope = $rootScope.$new();
       controller = $controller('AppController', {

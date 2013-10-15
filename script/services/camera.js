@@ -1,5 +1,5 @@
 
-angular.module('receipter').service('camera', function($window, $rootScope) {
+angular.module('redrope').service('camera', function($window, $rootScope) {
 
   'use strict';
 

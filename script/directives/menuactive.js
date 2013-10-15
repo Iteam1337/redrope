@@ -1,5 +1,5 @@
 
-angular.module('receipter').directive('menuactive', function($location) {
+angular.module('redrope').directive('menuactive', function($location) {
 
   'use strict';
 

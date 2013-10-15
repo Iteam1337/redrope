@@ -1,6 +1,6 @@
 
 angular
-  .module('receipter', [ 'ngTouch', 'ngAnimate', 'ui.router' ])
+  .module('redrope', [ 'ngTouch', 'ngAnimate', 'ui.router' ])
   .config(function($locationProvider, $stateProvider, $urlRouterProvider) {
 
     'use strict';

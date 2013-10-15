@@ -1,5 +1,5 @@
 
-angular.module('receipter').controller('AppController', function() {
+angular.module('redrope').controller('AppController', function() {
 
   'use strict';
 

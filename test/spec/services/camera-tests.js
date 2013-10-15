@@ -12,7 +12,7 @@ describe('camera', function() {
       cleanup: sinon.stub()
     };
 
-    module('receipter', function($provide) {
+    module('redrope', function($provide) {
       $provide.value('$window', { navigator: { camera: appCamera } }); // $window.navigator.camera
     });
     inject(function($injector, $rootScope) {
